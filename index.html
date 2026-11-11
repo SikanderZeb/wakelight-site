@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wakelight — a puzzle platformer about spending your own shadows</title>
+<meta name="description" content="Record a few seconds of yourself. Your shadow replays it — solid, real, holding the plate you can't reach.">
+
+<meta property="og:title" content="Wakelight">
+<meta property="og:description" content="Record a few seconds of yourself. Your shadow replays it — solid, real, holding the plate you can't reach.">
+<meta property="og:image" content="https://wakelightgame.com/images/wakelight.gif">
+<meta property="og:url" content="https://wakelightgame.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+  :root {
+    --bg:#05080E;        /* kVeilColor  */
+    --panel:#141B2A;     /* kDarkBg     */
+    --ink:#DFE5F0;       /* kPlayer     */
+    --lamp:#FBBF24;      /* kLampOn     */
+    --muted:#848C9C;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 20px 72px; }
+  h1 { font-size:clamp(40px,9vw,64px); letter-spacing:.08em; margin:28px 0 6px; }
+  .tag { color:var(--lamp); font-size:clamp(17px,2.6vw,20px); margin:0 0 32px; }
+  figure { margin:0 0 36px; }
+  figure img { width:100%; display:block; border-radius:6px; }
+  .card { background:var(--panel); border-radius:8px; padding:24px 26px; margin:0 0 24px; }
+  .cta {
+    display:inline-block; background:var(--lamp); color:#141B2A; font-weight:700;
+    text-decoration:none; padding:15px 30px; border-radius:6px; font-size:18px;
+  }
+  .soon { display:inline-block; border:1px solid var(--muted); color:var(--muted);
+          padding:15px 30px; border-radius:6px; font-size:18px; }
+  a { color:var(--lamp); }
+  h2 { font-size:15px; letter-spacing:.14em; text-transform:uppercase;
+       color:var(--muted); margin:40px 0 14px; font-weight:600; }
+  .shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:12px; }
+  .shots img { width:100%; border-radius:6px; display:block; }
+  footer { border-top:1px solid #1E2738; margin-top:56px; padding-top:22px;
+           color:var(--muted); font-size:14px; }
+  footer a { color:var(--muted); margin-right:18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>WAKELIGHT</h1>
+  <p class="tag">Arrive with help, spend them, walk out alone.</p>
+
+  <figure>
+    <img src="images/wakelight.gif" alt="A shadow replays the player's recorded movement and holds down a plate, raising a platform.">
+  </figure>
+
+  <div class="card">
+    <p style="margin-top:0"><strong>Every room is dark. Light it, and you lose the help that got you there.</strong></p>
+    <p>Hold a key and the game records a few seconds of your movement. Let go, and you snap back to where you started — while a shadow of you replays exactly what you just did. It's solid. You can stand on it. It can hold down a plate you can't reach from where you need to be.</p>
+    <p>The catch: your shadows only exist in the dark. Light a lamp and one of them is gone — the oldest first. Every room is the same trade.</p>
+    <p style="margin-bottom:0">37 rooms across seven chapters. Hand-painted. Full controller support.</p>
+  </div>
+
+  <!-- Swap this for the real link once the Steam page is live. -->
+  <p><span class="soon">Coming to Steam</span></p>
+  <!-- <p><a class="cta" href="STEAM_URL">Wishlist on Steam →</a></p> -->
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <!-- Drop PNGs into images/ and point these at them. -->
+    <img src="images/shot1.png" alt="Wakelight screenshot">
+    <img src="images/shot2.png" alt="Wakelight screenshot">
+  </div>
+
+  <h2>Press</h2>
+  <div class="card">
+    <p style="margin-top:0">Press kit, logo, full-resolution screenshots and footage available on request.</p>
+    <p style="margin-bottom:0">Contact: <a href="mailto:hello@wakelightgame.com">hello@wakelightgame.com</a></p>
+  </div>
+
+  <h2>Elsewhere</h2>
+  <p><a href="https://sikander91.itch.io/wakelight">itch.io</a></p>
+
+  <footer>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <span>&copy; 2026 Sikander Khan</span>
+  </footer>
+
+</div>
+</body>
+</html>
